@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="homework2" targetName="homework2" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -36,6 +38,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,13 +52,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework_2_(first_class_22_01_24)/CMakeLists.txt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\CLionProjects\homework" />
       <recent name="C:\Users\user\CLionProjects\homework\cmake-build-debug" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="homework2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework2" TARGET_NAME="homework2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework2" RUN_TARGET_NAME="homework2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,6 +79,7 @@
       <updated>1706017594684</updated>
       <workItem from="1706017595784" duration="66000" />
       <workItem from="1706017994524" duration="181000" />
+      <workItem from="1706169354971" duration="66000" />
     </task>
     <servers />
   </component>
@@ -85,27 +96,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="190" key="FileChooserDialogImpl" timestamp="1706017620932">
+    <state x="560" y="190" key="FileChooserDialogImpl" timestamp="1706019026329">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="560" y="190" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1706017620932" />
-    <state width="1476" height="200" key="GridCell.Tab.0.bottom" timestamp="1706017661473">
+    <state x="560" y="190" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1706019026329" />
+    <state width="1476" height="200" key="GridCell.Tab.0.bottom" timestamp="1706019039627">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1476" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1706017661473" />
-    <state width="1476" height="200" key="GridCell.Tab.0.center" timestamp="1706017661473">
+    <state width="1476" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1706019039627" />
+    <state width="1476" height="200" key="GridCell.Tab.0.center" timestamp="1706019039627">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1476" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1706017661473" />
-    <state width="1476" height="200" key="GridCell.Tab.0.left" timestamp="1706017661473">
+    <state width="1476" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1706019039627" />
+    <state width="1476" height="200" key="GridCell.Tab.0.left" timestamp="1706019039626">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1476" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1706017661473" />
-    <state width="1476" height="200" key="GridCell.Tab.0.right" timestamp="1706017661473">
+    <state width="1476" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1706019039626" />
+    <state width="1476" height="200" key="GridCell.Tab.0.right" timestamp="1706019039627">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1476" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1706017661473" />
+    <state width="1476" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1706019039627" />
+    <state x="577" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1706169401916">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="577" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1706169401916" />
   </component>
 </project>

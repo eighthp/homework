@@ -47,10 +47,10 @@ RM = "D:\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\CLionProjects\homework
+CMAKE_SOURCE_DIR = C:\Users\user\CLionProjects\homework\homework_2_(first_class_22_01_24)
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\CLionProjects\homework\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\CLionProjects\homework\homework_2_(first_class_22_01_24)\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\homework\cmake-build-debug\CMakeFiles C:\Users\user\CLionProjects\homework\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\homework\homework_2_(first_class_22_01_24)\cmake-build-debug\CMakeFiles C:\Users\user\CLionProjects\homework\homework_2_(first_class_22_01_24)\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\homework\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\homework\homework_2_(first_class_22_01_24)\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ homework2/fast:
 	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/build
 .PHONY : homework2/fast
 
-homework2/main.obj: homework2/main.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : homework2/main.obj
+.PHONY : main.obj
 
 # target to build an object file
-homework2/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/homework2/main.cpp.obj
-.PHONY : homework2/main.cpp.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-homework2/main.i: homework2/main.cpp.i
+main.i: main.cpp.i
 
-.PHONY : homework2/main.i
+.PHONY : main.i
 
 # target to preprocess a source file
-homework2/main.cpp.i:
-	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/homework2/main.cpp.i
-.PHONY : homework2/main.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-homework2/main.s: homework2/main.cpp.s
+main.s: main.cpp.s
 
-.PHONY : homework2/main.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-homework2/main.cpp.s:
-	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/homework2/main.cpp.s
-.PHONY : homework2/main.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\homework2.dir\build.make CMakeFiles/homework2.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... homework2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... homework2/main.obj
-	@echo ... homework2/main.i
-	@echo ... homework2/main.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

@@ -1,2 +1,4 @@
-.idea
-cmake-build-debug
+echo ".idea"
+git rm --cached .idea
+git add .gitignore
+git commit -m "update ignored files"
